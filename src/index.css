@@ -93,5 +93,19 @@ body {
   font-size: 1.2rem;
   font-family: "Roboto";
   cursor: pointer;
+  margin-left: 42%;
+}
+
+@media screen and (max-width: 576px) {
+  .location-info {
+    top: 100px;
+    right: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .location-info button {
+    font-size: 1rem;
+  }
 }
 /* end location info box */
